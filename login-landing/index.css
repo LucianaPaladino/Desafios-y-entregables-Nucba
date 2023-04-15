@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "roboto medium";
+    src: url(Fuentes/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto black";
+    src: url(Fuentes/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "roboto thin";
+    src: url(Fuentes/Roboto/Roboto-Thin.ttf);
+}
+
+.principal {
+    width: 20%;
+    margin: auto;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 2px 2px rgba(214, 214, 214, 0.705); 
+}
+
+.cabecera img {
+width: 50px;
+margin: 40px 0 0 0;
+}
+
+.cabecera {
+text-align: center;
+font-family: "roboto medium";
+color: grey;
+}
+
+.medio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.medio input {
+    width: 50%;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5px;
+    padding: 15px;
+    height: 15px;
+    font-family: "roboto medium"
+}
+
+::placeholder {
+    color: rgb(177, 177, 177);
+}
+.pie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Entrar{
+    width: 57%;
+    padding: 15px 10px 15px 10px;
+    margin: 15px;
+    background-color: rgba(0, 0, 90, 0.911);
+    color: white;
+    cursor: pointer;
+    font-family: "roboto black";
+}
+
+.olvide{
+background-color: white;
+border-radius: 20px;
+border: 1px solid rgb(190, 190, 190);
+color: grey;
+margin: 10px 0 30px 0;
+cursor: pointer;
+font-family: "roboto medium";
+font-size: 10px;
+
+}

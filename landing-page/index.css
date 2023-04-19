@@ -1,0 +1,53 @@
+@font-face {
+    font-family: roboto medium;
+    src: url(Fuentes/Roboto/Roboto-Medium.ttf);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+
+}
+.recuadro-login {
+    display: flex;
+    background-color: #ffb627;
+    width: 90%;
+    margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+    width: 70px;
+    border-radius: 50px;
+    margin: 5px 50px 10px 50px;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffb627;
+    font-family: roboto medium;
+  
+  
+
+  }
+
+  li {
+    display: inline-flex;
+    
+    margin-right: 30px;
+  }
+  li a {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  
+  }
+body {
+    background-color: #b7f0ad;
+}
+
+
